@@ -1,0 +1,64 @@
+@import url(styles/header.css);
+@import url(styles/hero.css);
+@import url(styles/media_q.css);
+@import url(styles/segunda_secion.css);
+@import url(styles/efectos.css);
+@import url(styles/footers.css);
+
+
+
+*{
+    --letra_color_negro:black;
+
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    width: 100%;
+}
+h1 {
+    font-size: 2.5em;
+    color: var(--letra_color_negro);
+    line-height: 1em;
+    font-weight:bolder;
+}
+h2{
+    font-size: 2.5em;
+    font-weight:lighter;
+    color: var(--letra_color_negro);
+    line-height:1.5em;
+}
+h4{
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: var(--letra_color_negro);
+    line-height:1.5em;
+}
+p{
+    font-size: 1em;
+    color: #088178;
+    line-height:normal;
+}
+h3{
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+/* Tranformaciones  */
+
+/* Mofifica el tamaño de los productos */
+.producto:hover{
+    transform:scale(1.1);
+    transition: all 1s ease;
+}
+/* Agranda todos los botones  */
+.as:hover{
+    transform: scale(1.1);
+}
+
+
+
+

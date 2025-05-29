@@ -1,0 +1,48 @@
+/* Contiene todos los elementos de la barra de navegacion */
+.header{
+    --letra_color_negro:black;
+
+    padding: 1em 2em ;
+    display: flex;
+    position: sticky;
+    top: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    /* Caja que contiene la imagen del logo de navebacion */
+    .caja_logo_header{
+        width: 3em;
+        height: auto;
+        /* logo */
+        .logo_header{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-size: cover;
+        }
+    }
+    /* segunda caja de el header de el lado derecho */
+    .caja_elementos_header{
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        /* Contiene la lista completa */
+        .elementos_header{
+            display: flex;
+            gap: 2em;
+            list-style: none;
+            /* Modifica cada elemento de la lista */
+            .a_header{
+                color: var(--letra_color_negro);
+                font-weight:bolder;
+                text-decoration: none;
+                transition: all 0.2s;
+            }
+            .a_header:hover{
+                color: #088178;
+            }
+        }
+
+    }    
+}
