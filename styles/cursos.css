@@ -1,0 +1,46 @@
+/* Contiene las cajas de los cursos*/
+.todos_cursos{
+    --fondo: #333940;
+    --fondo_secundario: #000000;
+    --fondo_terciario: white;
+    --color_letra_1:white;
+    --color_letra_2:rgb(0, 0, 0);
+    --borde_1:white;
+    --borde_2:black;
+
+
+    margin: 3em 0;
+    padding: 2em 1em;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+    gap: 2em;
+    
+    background-color:var(--fondo_terciario);
+    color:var(--color_letra_2);
+    /* Caja vertical contiene la imgen  y texto*/
+    & .sub_caja_cursos{
+        width: 20em;
+        height: auto;
+        border: 0.01em solid var(--borde_2) ;
+        /* caja que contiene la imagen*/
+        & .caja_imagen_cursos{
+            width: 100%;
+            height: 80%;
+            /* imagen */
+            & .imagen_cursos{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        /* Carapteristas para los dos textos */
+        .tipo_cursos{
+            margin: 0;
+            padding:0.5em;            
+            font-size: 1.5em;
+        }
+    }
+}

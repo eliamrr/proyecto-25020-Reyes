@@ -1,0 +1,47 @@
+.secion_como_son_los_cursos{
+    --fondo: #333940;
+    --fondo_secundario: #000000;
+    --fondo_terciario: white;
+    --color_letra_1:white;
+    --color_letra_2:rgb(0, 0, 0);
+    --borde_1:white;
+    --borde_2:black;
+
+    display: flex;
+    margin: 3em 0;
+
+    color:var(--color_letra_2);
+
+    & .sclc_pregunta{   
+        margin: 0;  
+        padding: 1em; 
+
+        width: 20em;
+        height: auto;
+        
+        font-size: 4em;
+        text-align:center;
+
+        background-color: var(--fondo_secundario);
+        color:var(--color_letra_1);
+    }
+    .sclc_lista{
+        margin: 0;
+        padding: 1em 2em;
+        
+        width: auto;        
+        font-size: 1.5em;
+        text-align:justify;
+        
+        color: var(--color_letra_2);
+        background-color:var(--fondo_terciario);
+        & .sclc_unidad{
+            padding: 0.5em;
+            & .negrita{
+                font-weight: bold;
+            }
+        }
+
+    }
+
+} 

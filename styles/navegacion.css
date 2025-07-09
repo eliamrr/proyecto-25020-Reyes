@@ -1,0 +1,52 @@
+.header{
+    width: 100%;
+    display: flex;
+    position:fixed;
+    top: 0; 
+    right: 0;  
+
+}
+
+/* Caja que contiene  todos los elementos de la barra de navegacion*/
+.caja_navegacion{
+    width: 100%;
+    height: 4em;
+
+    display: flex;
+    align-items: center;
+    background-color:black;
+    
+}
+/* titulo_principal */
+.titulo_principal{
+    padding: 1em;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 2em;
+}
+/* contine todos los elementos de la listas*/
+.caja_lista_navegacion{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content:end;
+    gap: 1em;
+}
+/* modifica cada elemnto por unidad */
+.opciones{
+    padding: 0 1em;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 1.2em;
+}
+.enlace{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,44 @@
+.ps_qq_aprender{
+    --fondo: #333940;
+    --fondo_secundario: #000000;
+    --fondo_terciario: white;
+    --color_letra_1:white;
+    --color_letra_2:rgb(0, 0, 0);
+    --borde_1:white;
+    --borde_2:black;
+
+    display: flex;
+    margin: 4em 0 3em 0;
+
+
+    /* Caja que contiene la imaguen */
+    & .caja_imagen_qq_a{
+        width: 40em;
+        height: 20em;
+        /* Imaguen */
+        & .imagen_principal_qq_a{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    /* Titulo principal que pregunta Que quieres aprender */
+    .titulo_qq_a{
+        margin: 0;
+        padding: 1em;
+
+        width: 100%;
+
+        font-size: 4em;
+        text-align: center;
+        display: flex;
+        align-items: center;
+
+        background-color:var(--fondo_terciario);
+        color:var(--color_letra_2);
+    }
+
+}
+    
+    
+
+
